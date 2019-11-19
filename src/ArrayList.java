@@ -41,7 +41,7 @@ public class ArrayList<T extends Comparable <T>> implements List<T> {
         }
     }
 
-    // clear will eliminate all element within starsArray and reset size to 0
+    // clear will eliminate all element within starsArray and reset size to 00
     public void clear() {
         starsArray = (T[]) new Comparable[2];
         size = 0;
